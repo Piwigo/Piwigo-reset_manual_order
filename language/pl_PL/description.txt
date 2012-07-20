@@ -1,0 +1,1 @@
+Zmienia kolejność w albumie na kolejność automatyczną
