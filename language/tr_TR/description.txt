@@ -1,0 +1,1 @@
+Bir albümdeki manuel sıralamayı otomatik sıralama ile tekrar ayarlayın
