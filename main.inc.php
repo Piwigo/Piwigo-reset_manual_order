@@ -3,7 +3,7 @@
 Plugin Name: Reset manual order
 Version: auto
 Description: In an album, reset manual order with the current automatic order
-Plugin URI: http://piwigo.org/ext/extension_view.php?eid=
+Plugin URI: http://piwigo.org/ext/extension_view.php?eid=620
 Author: plg
 Author URI: http://piwigo.wordpress.com
 */

@@ -1,0 +1,1 @@
+In an album, reset manual order with the current automatic order
