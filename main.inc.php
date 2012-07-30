@@ -48,7 +48,7 @@ function reset_manual_order_process()
 {
   global $page, $template, $conf;
   
-  if ('element_set_ranks' == $page['page'] and isset($_GET['reset_manual_order']))
+  if ('album' == $page['page'] and 'sort_order' == @$_GET['tab'] and isset($_GET['reset_manual_order']))
   {
     $query = '
 SELECT *
@@ -101,7 +101,7 @@ SELECT
     mass_updates(IMAGE_CATEGORY_TABLE, $fields, $datas);
 
     $_SESSION['reset_manual_order'] = true;
-    redirect(get_root_url().'admin.php?page=element_set_ranks&cat_id='.$_GET['cat_id']);
+    redirect(get_root_url().'admin.php?page=album-'.$_GET['cat_id'].'-sort_order');
   }
 }
 ?>
