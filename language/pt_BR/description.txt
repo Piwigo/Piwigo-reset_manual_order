@@ -1,0 +1,1 @@
+Em um álbum, repor ordem manual com a ordem automática atual
