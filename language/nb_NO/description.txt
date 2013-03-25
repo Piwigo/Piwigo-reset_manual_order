@@ -1,0 +1,1 @@
+Tilbakestiller manuell sortering i et album til den gjeldende automatiske sorteringen.
