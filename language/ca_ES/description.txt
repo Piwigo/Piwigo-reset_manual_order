@@ -1,0 +1,1 @@
+Permet restablir l'ordre manual amb l'ordre automàtic actual
