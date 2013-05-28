@@ -1,1 +1,1 @@
-Restablecer el orden manua con el orden automatico actual
+Permite restablecer el orden manual con el orden automático actual
