@@ -1,0 +1,1 @@
+I ett album, återställ till manuella sorteringen från den nuvarande automatiska sorteringen.
