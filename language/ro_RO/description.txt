@@ -1,0 +1,1 @@
+Într-un album, resetează ordinea manuală la ordinea automată curentă
