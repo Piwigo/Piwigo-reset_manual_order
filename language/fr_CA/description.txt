@@ -1,0 +1,1 @@
+Dans un album, permet de réinitialiser l'ordre manuel des photos avec l'ordre automatique en cours
