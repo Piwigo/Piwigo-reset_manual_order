@@ -20,5 +20,4 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Reset manual order with current automatic order'] = 'Zurücksetzen der Manuellen Anordnung mit der aktuellen automatischen Anordnung.';
-?>
+$lang['Reset manual order with current automatic order'] = 'Zurücksetzen der manuellen Anordnung mit der aktuellen automatischen Anordnung.';
