@@ -35,8 +35,8 @@ function reset_manual_order_add_link()
 
 function reset_manual_order_add_link_prefilter($content, &$smarty)
 {
-  $search = "#<legend>\{'Manual order'\|@translate\}</legend>#";
-  $replacement = '<legend>{\'Manual order\'|@translate}</legend>
+  $search = "#\{'Manual order'\|@translate\}</legend>#";
+  $replacement = '{\'Manual order\'|@translate}</legend>
 <a href="{$F_ACTION}&amp;reset_manual_order=1">{\'Reset manual order with current automatic order\'|@translate}</a>
 ';
 
