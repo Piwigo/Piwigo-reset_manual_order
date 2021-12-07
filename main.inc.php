@@ -6,6 +6,7 @@ Description: In an album, reset manual order with the current automatic order
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=620
 Author: plg
 Author URI: http://piwigo.wordpress.com
+Has Settings: false
 */
 
 if (!defined('PHPWG_ROOT_PATH'))
@@ -33,7 +34,7 @@ function reset_manual_order_add_link()
   $template->set_prefilter('element_set_ranks', 'reset_manual_order_add_link_prefilter');
 }
 
-function reset_manual_order_add_link_prefilter($content, &$smarty)
+function reset_manual_order_add_link_prefilter($content)
 {
   $search = "#\{'Manual order'\|@translate\}</legend>#";
   $replacement = '{\'Manual order\'|@translate}</legend>
